@@ -1,0 +1,44 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+    --border-color: #e9eef2;
+    --bg-clr: #f4f8fa;
+}
+.light-border {
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+}
+.txt {
+    color: #1b31a8;
+    font-family: Work Sans;
+}
+.wrapper {
+    background-color: var(--bg-clr);
+    font-size: 1rem;
+}
+.detail {
+    background: #f4f8fa;
+}
+.monthly-color {
+    color: #0079ff;
+}
+@media (min-width: 768px) {
+    .wrapper {
+        padding: 120px auto 20px auto;
+    }
+}
+.btn-now {
+    display: block;
+    width: 320px;
+    height: 56px;
+    background: #1b31a8;
+    border: transparent;
+    border-radius: 32px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    align-self: center;
+    font-size: 1rem;
+    color: #e9eef2;
+}
