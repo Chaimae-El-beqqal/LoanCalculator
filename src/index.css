@@ -12,7 +12,6 @@
 }
 .txt {
     color: #1b31a8;
-    font-family: Work Sans;
 }
 .wrapper {
     background-color: var(--bg-clr);
@@ -29,6 +28,9 @@
         padding: 120px auto 20px auto;
     }
 }
+.loan-input {
+    color: #4d6475;
+}
 .btn-now {
     display: block;
     width: 320px;
@@ -41,4 +43,23 @@
     align-self: center;
     font-size: 1rem;
     color: #e9eef2;
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.input-container input {
+    padding-right: 50px;
+}
+
+.input-container .dollar-icon {
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    padding-right: 20px;
+    transform: translateY(-50%);
+    fill: #cbd5dc;
+    width: 40px;
 }

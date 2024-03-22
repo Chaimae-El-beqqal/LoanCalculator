@@ -71,11 +71,11 @@
 
         "outDir": "./build",
         "baseUrl": ".",
-		"paths": {
-			"@screens/*": ["./src/screens/*"],
-			"@components/*": ["./src/components/*"]
-		}
+        "paths": {
+            "@screens/*": ["./src/screens/*"],
+            "@components/*": ["./src/components/*"]
+        }
     },
     "exclude": ["./node_modules"],
-    "include": ["./src"]
+    "include": ["./src", "src/components", "custom.d.ts"]
 }

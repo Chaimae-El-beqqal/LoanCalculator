@@ -49,6 +49,18 @@ export default (env, argv) => {
                     ],
                     use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
                 },
+                {
+                    test: /\.svg$/,
+                    use: [
+                        {
+                            loader: "file-loader",
+                            options: {
+                                name: "[name].[ext]",
+                                outputPath: ".src/assets/",
+                            },
+                        },
+                    ],
+                },
             ],
         },
         optimization: {

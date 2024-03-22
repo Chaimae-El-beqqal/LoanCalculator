@@ -29,7 +29,7 @@ function MonthsInput({ minTenure, maxTenure, month, onMonthChange }: MonthProps)
                     value={month}
                     onChange={(e) => onMonthChange(parseInt(e.target.value))}
                     onKeyDown={handleKeyDown}
-                    className=" w-full  rounded-md border-0 py-3 px-5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 text-lg leading-6"
+                    className=" w-full  rounded-md border-0 py-3 px-5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400  text-lg leading-7"
                     min={minTenure}
                     max={maxTenure}
                     required
